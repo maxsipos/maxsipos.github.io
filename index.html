@@ -1,17 +1,201 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <title>MAXsi POS – Android Point of Sale</title>
-  <meta name="description" content="MAXsi POS is an Android Point of Sale application for retail SMEs." />
-</head>
-<body>
-  <h1>MAXsi POS</h1>
-  <p>Android Point of Sale for retail SMEs.</p>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-  <p>
-    Project pages:
-    <a href="https://maxsipos.github.io/android/">Android App</a>
-  </p>
+  <title>MAXsi POS – Android Point of Sale for Retail SMEs</title>
+  <meta name="description" content="MAXsi POS is an Android Point of Sale (POS) application for retail SMEs. Manage sales, inventory, and reports with a simple and reliable system." />
+  <meta name="robots" content="index,follow" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="MAXsi POS – Android Point of Sale" />
+  <meta property="og:description" content="Android POS application for retail SMEs to manage sales, inventory, and reports." />
+  <meta property="og:url" content="https://maxsipos.github.io/" />
+
+  <style>
+    :root { color-scheme: light dark; }
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+      line-height: 1.6;
+    }
+    .wrap {
+      max-width: 980px;
+      margin: 0 auto;
+      padding: 28px 18px;
+    }
+    h1 { font-size: 32px; margin: 0 0 8px; }
+    h2 { font-size: 20px; margin-top: 26px; }
+    p { margin: 10px 0; }
+    ul { margin: 10px 0; padding-left: 20px; }
+    .card {
+      border: 1px solid rgba(127,127,127,.25);
+      border-radius: 14px;
+      padding: 18px;
+      background: rgba(127,127,127,.06);
+      margin-top: 16px;
+    }
+    .meta {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 10px;
+      margin-top: 14px;
+    }
+    @media (min-width: 860px) {
+      .meta { grid-template-columns: 1fr 1fr; }
+    }
+    .pill {
+      display: inline-block;
+      padding: 6px 10px;
+      border-radius: 999px;
+      border: 1px solid rgba(127,127,127,.35);
+      font-size: 12px;
+      margin-right: 8px;
+      margin-bottom: 6px;
+    }
+    .cta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 16px;
+    }
+    a.btn {
+      hint: none;
+      text-decoration: none;
+      padding: 10px 14px;
+      border-radius: 10px;
+      border: 1px solid rgba(127,127,127,.35);
+    }
+    a.btn.primary {
+      background: #2f6feb;
+      color: #fff;
+      border-color: transparent;
+    }
+    footer {
+      margin-top: 32px;
+      font-size: 13px;
+      opacity: .85;
+    }
+  </style>
+
+  <!-- Schema.org SoftwareApplication -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "MAXsi POS",
+    "applicationCategory": "BusinessApplication",
+    "operatingSystem": "Android",
+    "description": "MAXsi POS is an Android Point of Sale (POS) application designed for retail SMEs to manage sales, inventory, and reports.",
+    "publisher": {
+      "@type": "Organization",
+      "name": "MAXsi POS"
+    },
+    "offers": {
+      "@type": "Offer",
+      "price": "0",
+      "priceCurrency": "IDR"
+    }
+  }
+  </script>
+</head>
+
+<body>
+  <main class="wrap">
+    <header>
+      <span class="pill">Android POS</span>
+      <span class="pill">Retail SMEs</span>
+      <span class="pill">Inventory & Reports</span>
+
+      <h1>MAXsi POS</h1>
+      <p>
+        MAXsi POS is an Android-based Point of Sale (POS) application designed to help small and medium retail businesses
+        manage daily operations efficiently. It provides a simple way to record sales, manage inventory, and review
+        business performance through clear reports.
+      </p>
+
+      <div class="meta">
+        <div><strong>Category:</strong> Point of Sale, Retail Management</div>
+        <div><strong>Platform:</strong> Android</div>
+        <div><strong>Target Users:</strong> Retail SMEs, grocery stores, minimarkets</div>
+        <div><strong>License:</strong> MIT License</div>
+      </div>
+
+      <div class="cta">
+        <a class="btn primary" href="https://maxsi.id/aplikasi-kasir/">Official Website</a>
+        <a class="btn" href="https://maxsipos.github.io/android/">Android Project Page</a>
+        <a class="btn" href="https://github.com/maxsipos/android">GitHub Repository</a>
+      </div>
+    </header>
+
+    <section>
+      <h2>Overview</h2>
+      <div class="card">
+        <p>
+          MAXsi POS focuses on practical retail workflows and ease of use. It is suitable for businesses that need
+          a lightweight POS system without complex configuration or enterprise-level overhead.
+        </p>
+        <p>
+          The application is designed primarily for Indonesian SMEs but is also suitable for retail businesses
+          in other growing markets.
+        </p>
+      </div>
+    </section>
+
+    <section>
+      <h2>Key Features</h2>
+      <div class="card">
+        <ul>
+          <li>Cash and cashless sales transactions</li>
+          <li>Product and inventory management</li>
+          <li>Stock monitoring and control</li>
+          <li>Sales reports and profit &amp; loss summaries</li>
+          <li>Daily and monthly transaction recaps</li>
+          <li>Transaction history tracking</li>
+          <li>Simple and user-friendly interface</li>
+          <li>Optimized for small and medium retail businesses</li>
+        </ul>
+      </div>
+    </section>
+
+    <section>
+      <h2>Project Pages</h2>
+      <div class="card">
+        <ul>
+          <li>
+            <strong>Android App:</strong>
+            <a href="https://maxsipos.github.io/android/">https://maxsipos.github.io/android/</a>
+          </li>
+          <li>
+            <strong>Minimarket Use Case:</strong>
+            <a href="https://maxsipos.github.io/android/toko-minimarket/">
+              https://maxsipos.github.io/android/toko-minimarket/
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section>
+      <h2>Project Status</h2>
+      <div class="card">
+        <p>
+          <strong>Status:</strong> Active / Production
+        </p>
+        <p>
+          MAXsi POS is actively maintained and continuously improved with a focus on stability, performance,
+          and real-world retail needs.
+        </p>
+      </div>
+    </section>
+
+    <footer>
+      <p>
+        © MAXsi POS — Android Point of Sale for Retail SMEs
+      </p>
+    </footer>
+  </main>
 </body>
 </html>
